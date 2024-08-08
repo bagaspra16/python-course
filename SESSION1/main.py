@@ -2,7 +2,7 @@ import random
 
 opening = "WELCOME TO PYTHON'S HIDING GAME"
 closing = "THANK YOU FOR PLAYING!"
-python_position = random.randint(1,4)
+python_position = random.randint(1,5)
 
 print("|------------------------------------------------------------|")
 print(f"|---------------{opening}--------------|")
@@ -14,11 +14,11 @@ print("|------------------------------------------------------------|")
 print("\n")
 print(f'''Hello {username}! Come looking at the cave!!!
               
-_-1-_  _-2-_  _-3-_  _-4-_
+_-1-_  _-2-_  _-3-_  _-4-_  _-5-_
       ''')
 guess = int(input(f'''In which cave is the python hiding? '''))
 print("\n")
-confirm = input(f'''Are you sure the python's hiding in {python_position} cave [yes/no]? ''')
+confirm = input(f'''Are you sure the python's hiding in {guess} cave [yes/no]? ''')
 print("\n")
 print("|------------------------------------------------------------|")
 print("\n")
